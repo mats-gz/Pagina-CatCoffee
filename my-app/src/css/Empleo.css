@@ -1,0 +1,110 @@
+.formulario {
+    width: 900px; /* Ancho del formulario */
+    max-width: 100%; /* Garantiza que el formulario no sea más ancho que el contenedor padre */
+    background-color: white; /* Fondo blanco del formulario */
+    padding: 30px; /* Espaciado interno del formulario */
+    border: 4px solid #eec690; /* Color y grosor del borde */
+    border-radius: 15px; /* Bordes curvados */
+    margin: 0 auto; /* Centra el formulario en la página */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del formulario */
+}
+
+.formulario h1{
+    text-align: center;
+}
+
+/* Estilos para los elementos dentro del formulario (por ejemplo, los campos de entrada) */
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: calc(100% - 20px); /* Ocupa todo el ancho disponible, descontando el espaciado de los bordes */
+    padding: 10px; /* Espaciado interno de los campos de entrada */
+    margin-bottom: 20px; /* Espaciado inferior entre los campos */
+    border: 1px solid #ccc; /* Color y grosor del borde de los campos */
+    border-radius: 5px; /* Bordes curvados para los campos de entrada */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total de los campos */
+}
+
+.formulario textarea {
+    height: 150px; /* Altura específica para el área de texto */
+    resize: vertical; /* Permite redimensionar verticalmente el área de texto si es necesario */
+}
+
+.formulario button {
+    background-color: #b17a4f; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes curvados para el botón */
+    padding: 15px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño del texto del botón */
+}
+
+.formulario button:hover {
+    background-color: #b17a4f; /* Cambia el color de fondo del botón al pasar sobre él */
+}
+.job-posting {
+    background-color: #b17a4f;
+    border: 3px solid white;
+    padding: 20px;
+    text-align: center;
+    width: 100, 5%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.job-posting h5 {
+    font-size: 18px;
+    margin-top: 20px; /* Espaciado entre el texto y las imágenes */
+}
+
+.center-empleo {
+    display: flex;
+    flex-direction: row; /* Cambia a fila para que las imágenes y el gato estén en línea */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Espaciado entre las imágenes y el título */
+}
+
+.images-container img {
+    width: 60px;
+    margin: 0 15px; /* Espaciado entre las imágenes */
+}
+
+.center-empleo h1 {
+    font-size: 35px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espaciado inferior del título */
+}
+
+.info-extra{
+    background-color: #d2a373; /* Fondo amarillo */
+    border: 2px solid #553C2E; /* Borde verde de 2px */
+    border-radius: 20px; /* Esquinas circulares */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px; /* Margen superior para separar del botón */
+    max-width: 10000px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente en el centro del contenedor */
+    text-align: center;
+    margin: 0 auto; /* Centrar horizontalmente el cuadro de resultado */
+    font-size: 20px;
+}
+
+.boton {
+    background-color: #b17a4f; /* Color de fondo del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes curvados para el botón */
+    padding: 15px 20px; /* Espaciado interno del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 25px; /* Tamaño del texto del botón */
+    size: 90px;
+}

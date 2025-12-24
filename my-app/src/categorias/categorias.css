@@ -1,0 +1,99 @@
+/* Estilos para el contenedor de las tarjetas */
+.tarjetasContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+/* Estilos para cada tarjeta */
+.tarjetaProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 25px;
+    padding: 14px;
+    border: 4px solid #8B4513;
+    border-radius: 20px;
+    flex-basis: calc(33.33% - 20px);
+    /* Establece 3 tarjetas por línea */
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 2px solid #8B4513;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: black;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.vendedor {
+    color: #888;
+    font-size: 18px;
+}
+
+.fondo-tarjetas {
+    background-color: #EEC99B;
+    border: 2px solid #EEC99B;
+    border-radius: 10px;;
+    /* Color de fondo para las tarjetas */
+}
+
+.box-titulo {
+    display: flex;
+    flex-direction: row;
+    /* Cambia a fila para que las imágenes y el gato estén en línea */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #b17a4f; /* Marrón */
+    border: 4px solid #8B4513; /* Color del borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+
+}
+
+.images-prod {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* Espaciado entre las imágenes y el título */
+}
+
+.images-prod img {
+    width: 60px;
+    margin: 0 15px;
+    /* Espaciado entre las imágenes */
+}
+
+.boton-prod {
+    background-color: #ae905f; /* Amarillo clarito */
+    color: #562b0b; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 15px; /* Bordes circulares */
+    padding: 15px 25px; /* Espaciado interno */
+    margin-right: 1400px; /* Margen derecho para colocarlo al costado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 18px; /* Tamaño del texto */
+}
+
+.boton-info{
+    background-color: #ae905f; /* Amarillo clarito */
+    color: #562b0b; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 15px; /* Bordes circulares */
+    padding: 15px 25px; /* Espaciado interno */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 18px; /* Tamaño del texto */
+}

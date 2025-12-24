@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.App-header {
+  background-image: url('./Diseño\ sin\ título\ \(2\).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  /* Cambia a fila para que las imágenes y el gato estén en línea */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inicio img {
+  width: 100%;
+  /* Ajusta el ancho de la imagen según tus necesidades */
+  margin-top: -600px;
+  /* Mueve la imagen hacia arriba */
+}
+
+.presentacion {
+  background-color: #d2a373;
+  /* Fondo amarillo */
+  border: 2px solid #553C2E;
+  /* Borde verde de 2px */
+  border-radius: 20px;
+  /* Esquinas circulares */
+  margin-top: -600px;
+  font-size: 25px;
+}
+
+.carta {
+  width: auto;
+  /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+  margin-bottom: 0px;
+}
+
+.contenedor-carta h6 {
+  font-size: 35px;
+  border: 2px solid #ffc8a8;
+  background-color: #d2a373;
+  border-radius: 20px;
+  color: white;
+}
+
+.imagenes-titulo {
+  background-color: #b17a4f;
+  border: 3px solid white;
+  padding: 20px;
+  text-align: center;
+  width: 100, 5%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  /* Cambia a fila para que las imágenes y el gato estén en línea */
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  color: rgb(68, 62, 62);
+}
+
+.imagenes-titulo img {
+  width: 80px;
+  margin: 0 15px;
+  /* Espaciado entre las imágenes */
+  color: white;
+}
+
+.emilio {
+  background-color: #4C3D3B;
+  padding: 20px;
+  text-align: center;
+  width: 100, 5%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #CBAD91;
+}
+
+
+
+.julio {
+  background-color: #F3DAD0;
+  padding: 20px;
+  text-align: center;
+  width: 100, 5%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #4C3D3B;
+}
+
+.julio img{
+  width: 500px;
+  height: auto;
+}
+
+
+
+.candace {
+  background-color: #543E33;
+  padding: 20px;
+  text-align: center;
+  width: 100, 5%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #F3DAD0;
+
+}
+
+.candace img{
+  width: 500px;
+  height: auto;
+}
+
+.lyney {
+  background-color: #CBAD91;
+  padding: 20px;
+  text-align: center;
+  width: 100, 5%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #543E33;
+
+}
+
+.lyney img{
+  width: 500px;
+  height: auto;
+}

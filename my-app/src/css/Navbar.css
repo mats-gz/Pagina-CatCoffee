@@ -1,0 +1,106 @@
+.Cabecera {
+    width: 100, 5%;
+    background-color: #78533B;
+    padding: 1em; 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(138, 114, 84);
+    
+}
+
+.Cabecera-button {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+}
+
+.Cabecera-svg {
+    width: 2em;
+    height: 3em;
+    fill: #eee;
+}
+
+.Cabecera-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Cabecera-nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.Cabecera-nav.isActive {
+    height: 40vh;
+    opacity: 1;
+}
+
+.Cabecera-li {
+    margin: 0.5em 0;
+}
+
+.Cabecera-a {
+    color: white;
+}
+
+
+.Inicio-container {
+    display: flex;
+    align-items: center;
+    margin-left: -20px; 
+}
+
+.Inicio-image {
+    width: 30px; /* Puedes ajustar el tamaño según tus necesidades */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin-left: -5px; 
+}
+
+/* Estilos CSS en el archivo Navbar.css */
+
+.Logo-container {
+    display: flex;
+    flex-direction: row; /* Cambia a fila para que las imágenes y el gato estén en línea */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.Corazon-imagenes {
+    display: flex;
+    align-items: center; /* Centra verticalmente las imágenes del corazón */
+    justify-content: center; /* Centra horizontalmente las imágenes del corazón */
+}
+
+.corazon-imagen {
+    width: 100px; /* Ajusta el tamaño de las imágenes del corazón */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    margin: 5px; /* Espacio entre las imágenes */
+    margin-top: -140px; /* Ajusta este valor para mover los corazones hacia arriba */
+}
+
+.image{
+    width: 140px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -55px;
+    max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto;
+}
